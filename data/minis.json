@@ -53,7 +53,7 @@
     ],
     "dateAdded": "2025-08-01T00:00:00.000Z",
     "dateModified": "2025-08-01T00:00:00.000Z",
-    "image": "https://place.dog/300/200"
+    "image": null
   },
   {
     "id": "5",
@@ -81,7 +81,7 @@
     ],
     "dateAdded": "2025-08-01T00:00:00.000Z",
     "dateModified": "2025-08-01T00:00:00.000Z",
-    "image": "https://place.dog/300/200"
+    "image": null
   },
   {
     "id": "7",
@@ -95,7 +95,7 @@
     ],
     "dateAdded": "2025-08-01T00:00:00.000Z",
     "dateModified": "2025-08-01T00:00:00.000Z",
-    "image": "https://place.dog/300/200"
+    "image": null
   },
   {
     "id": "8",
@@ -207,7 +207,7 @@
     ],
     "dateAdded": "2025-08-01T00:00:00.000Z",
     "dateModified": "2025-08-01T00:00:00.000Z",
-    "image": "https://place.dog/300/200"
+    "image": null
   },
   {
     "id": "16",
@@ -235,7 +235,7 @@
     ],
     "dateAdded": "2025-08-01T00:00:00.000Z",
     "dateModified": "2025-08-01T00:00:00.000Z",
-    "image": "https://place.dog/300/200"
+    "image": null
   },
   {
     "id": "18",
@@ -277,7 +277,7 @@
     ],
     "dateAdded": "2025-08-01T00:00:00.000Z",
     "dateModified": "2025-08-01T00:00:00.000Z",
-    "image": "https://place.dog/300/200"
+    "image": null
   },
   {
     "id": "21",
@@ -290,7 +290,7 @@
     ],
     "dateAdded": "2025-08-02T00:00:00.000Z",
     "dateModified": "2025-08-02T00:00:00.000Z",
-    "image": "https://place.dog/300/200"
+    "image": null
   },
   {
     "id": "22",
@@ -329,7 +329,7 @@
     ],
     "dateAdded": "2025-08-02T00:00:00.000Z",
     "dateModified": "2025-08-02T00:00:00.000Z",
-    "image": "https://place.dog/300/200"
+    "image": null
   },
   {
     "id": "25",
@@ -420,7 +420,7 @@
     ],
     "dateAdded": "2025-08-02T00:00:00.000Z",
     "dateModified": "2025-08-02T00:00:00.000Z",
-    "image": "https://place.dog/300/200"
+    "image": null
   },
   {
     "id": "32",
@@ -446,7 +446,7 @@
     ],
     "dateAdded": "2025-08-02T00:00:00.000Z",
     "dateModified": "2025-08-02T00:00:00.000Z",
-    "image": "https://place.dog/300/200"
+    "image": null
   },
   {
     "id": "34",
@@ -459,7 +459,7 @@
     ],
     "dateAdded": "2025-08-02T00:00:00.000Z",
     "dateModified": "2025-08-02T00:00:00.000Z",
-    "image": "https://place.dog/300/200"
+    "image": null
   },
   {
     "id": "35",
@@ -550,7 +550,7 @@
     ],
     "dateAdded": "2025-08-02T00:00:00.000Z",
     "dateModified": "2025-08-02T00:00:00.000Z",
-    "image": "https://place.dog/300/200"
+    "image": null
   },
   {
     "id": "42",
@@ -563,6 +563,48 @@
     ],
     "dateAdded": "2025-08-02T00:00:00.000Z",
     "dateModified": "2025-08-02T00:00:00.000Z",
+    "image": null
+  },
+  {
+    "id": "1754338974452",
+    "name": "The Ghoul",
+    "type": "statue",
+    "status": "bare",
+    "tags": [
+      "Fallout"
+    ],
+    "dateAdded": "2025-08-04T20:22:54.452Z",
+    "dateModified": "2025-08-04T20:22:54.454Z",
+    "image": null
+  },
+  {
+    "id": "1754338986846",
+    "name": "Deadpool",
+    "type": "statue",
+    "status": "bare",
+    "tags": [],
+    "dateAdded": "2025-08-04T20:23:06.846Z",
+    "dateModified": "2025-08-04T20:23:06.846Z",
+    "image": null
+  },
+  {
+    "id": "1754339009991",
+    "name": "Batman TAS",
+    "type": "statue",
+    "status": "primed",
+    "tags": [],
+    "dateAdded": "2025-08-04T20:23:29.991Z",
+    "dateModified": "2025-08-04T20:23:29.991Z",
+    "image": null
+  },
+  {
+    "id": "1754339019912",
+    "name": "Bruce Lee",
+    "type": "statue",
+    "status": "bare",
+    "tags": [],
+    "dateAdded": "2025-08-04T20:23:39.912Z",
+    "dateModified": "2025-08-04T20:23:39.912Z",
     "image": null
   }
 ]
