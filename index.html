@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Painting Tracker</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <h1>Mini Painting Tracker</h1>
+      </header>
+      
+      <main class="main">
+        <section class="add-mini">
+          <h2>Add New Mini</h2>
+          <form id="mini-form">
+            <div class="form-group">
+              <label for="mini-name">Name:</label>
+              <input type="text" id="mini-name" maxlength="27" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="mini-type">Type:</label>
+              <select id="mini-type" required>
+                <option value="32mm">32mm</option>
+                <option value="75mm">75mm</option>
+                <option value="statue">Statue</option>
+                <option value="bust">Bust</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="mini-status">Status:</label>
+              <select id="mini-status">
+                <option value="bare">Bare</option>
+                <option value="primed">Primed</option>
+                <option value="painting">Painting</option>
+                <option value="painted">Painted</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="mini-tags">Tags:</label>
+              <input type="text" id="mini-tags" placeholder="e.g. Final Girl, The Happy Trails Horror">
+            </div>
+            
+            <div class="form-group">
+              <label for="mini-image">Image:</label>
+              <input type="file" id="mini-image" accept="image/*">
+            </div>
+            
+            <button type="submit">Add Mini</button>
+          </form>
+        </section>
+        
+        <section class="search-section">
+          <div class="search-controls">
+            <label for="search-input">Search:</label>
+            <input type="text" id="search-input" placeholder="Search by name, tags, or status...">
+          </div>
+        </section>
+        
+        <section class="controls">
+          <div class="filter-controls">
+            <label for="filter-tag">Filter by tags:</label>
+            <select id="filter-tag" multiple>
+              <option value="">All</option>
+            </select>
+            <small>Hold Ctrl/Cmd to select multiple tags</small>
+          </div>
+          
+          <button id="show-carousel" class="carousel-btn">View Gallery</button>
+        </section>
+        
+        <section class="mini-list">
+          <div class="mini-list-header">
+            <div class="mini-list-title">
+              <h2>Minis</h2>
+              <span id="mini-count" class="mini-count"></span>
+            </div>
+            <div class="sort-controls">
+              <label for="sort-by">Sort by:</label>
+              <select id="sort-by">
+                <option value="date-newest">Date (Newest)</option>
+                <option value="date-oldest">Date (Oldest)</option>
+                <option value="name">Name</option>
+                <option value="type">Type</option>
+                <option value="status">Status</option>
+              </select>
+            </div>
+          </div>
+          <div id="minis-container"></div>
+        </section>
+      </main>
+      
+      <div id="carousel-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div class="carousel-container">
+            <div id="carousel" class="carousel">
+              <!-- Images will be loaded here -->
+            </div>
+            <button class="carousel-nav prev" id="carousel-prev">❮</button>
+            <button class="carousel-nav next" id="carousel-next">❯</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
