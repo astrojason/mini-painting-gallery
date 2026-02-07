@@ -1,0 +1,2 @@
+- [x] add ability to filter by clicking on tags
+- [x] update favicon to something more appropriate than the default Next.js one

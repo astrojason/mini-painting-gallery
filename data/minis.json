@@ -70,20 +70,6 @@
     "image": null
   },
   {
-    "id": "6",
-    "name": "Adelaide",
-    "type": "32mm",
-    "status": "primed",
-    "tags": [
-      "Final Girl",
-      "Happy Trails Horror",
-      "Final Girl"
-    ],
-    "dateAdded": "2025-08-01T00:00:00.000Z",
-    "dateModified": "2025-08-01T00:00:00.000Z",
-    "image": null
-  },
-  {
     "id": "7",
     "name": "Melanie",
     "type": "32mm",
@@ -98,34 +84,6 @@
     "image": null
   },
   {
-    "id": "8",
-    "name": "Reiko",
-    "type": "32mm",
-    "status": "primed",
-    "tags": [
-      "Final Girl",
-      "Slaughter in the Groves",
-      "Final Girl"
-    ],
-    "dateAdded": "2025-08-01T00:00:00.000Z",
-    "dateModified": "2025-08-01T00:00:00.000Z",
-    "image": null
-  },
-  {
-    "id": "9",
-    "name": "Laurie",
-    "type": "32mm",
-    "status": "primed",
-    "tags": [
-      "Final Girl",
-      "Frightmare on Maple Lane",
-      "Final Girl"
-    ],
-    "dateAdded": "2025-08-01T00:00:00.000Z",
-    "dateModified": "2025-08-01T00:00:00.000Z",
-    "image": null
-  },
-  {
     "id": "10",
     "name": "Carolyn",
     "type": "32mm",
@@ -133,20 +91,6 @@
     "tags": [
       "Final Girl",
       "Carnage at the Carnival",
-      "Final Girl"
-    ],
-    "dateAdded": "2025-08-01T00:00:00.000Z",
-    "dateModified": "2025-08-01T00:00:00.000Z",
-    "image": null
-  },
-  {
-    "id": "11",
-    "name": "Barbara",
-    "type": "32mm",
-    "status": "primed",
-    "tags": [
-      "Final Girl",
-      "Happy Trails Horror",
       "Final Girl"
     ],
     "dateAdded": "2025-08-01T00:00:00.000Z",
