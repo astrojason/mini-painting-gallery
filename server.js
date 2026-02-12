@@ -12,6 +12,13 @@ const DATA_FILE = path.join(__dirname, 'data', 'minis.json')
 app.use(cors())
 app.use(express.json({ limit: '50mb' }))
 
+const distDir = path.join(__dirname, 'dist')
+try {
+  await fs.access(distDir)
+  app.use(express.static(distDir))
+} catch {}
+
+
 async function readMinis() {
   const data = await fs.readFile(DATA_FILE, 'utf-8')
   return JSON.parse(data)
@@ -78,6 +85,14 @@ app.delete('/api/minis/:id', async (req, res) => {
 
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok' })
+})
+
+app.get('{*path}', async (req, res, next) => {
+  const index = path.join(distDir, 'index.html')
+  try {
+    await fs.access(index)
+    res.sendFile(index)
+  } catch { next() }
 })
 
 async function start() {
