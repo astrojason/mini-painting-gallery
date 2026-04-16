@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 *.tar.gz
+*.tar
 
 # Editor directories and files
 .vscode/*
